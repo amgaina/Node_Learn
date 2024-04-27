@@ -7,16 +7,22 @@ The file contains the fundamental concepts of NodeJs and ExpressJs that includes
 To run this project on your local machine, follow these steps:
 
 1. Clone this repository to your local machine using the following command:
-git clone Node_Learn
-Navigate to the project directory:
-bash
-Copy code
-cd <project-directory>
-Install dependencies:
-Copy code
+```bash
+git clone git@github.com:amgaina/Node_Learn.git
+```
+2. Navigate to the project directory:
+```bash
+cd Node_Learn
+```
+3. Install dependencies:
+```bash
 npm install
-Run the project:
-php
-Copy code
+```
+4. Run the project. Run any javascript file you want to learn about using the following command:
+```bash
 node <filename.js>
-Replace <filename.js> with the name of the JavaScript file you want to run.
+```
+Happy learning with NodeJs and ExpressJs! If you have any questions or need more help, please let me know.
+Here's how you can contact me: https://amgaina.github.io/amgaina/
+
+Thank you 😀
