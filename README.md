@@ -1,7 +1,8 @@
 # Learn NodeJs and ExpressJs
-This project is created to learn about NodeJs and ExpressJs. It contains multiple files that has the basics of NodeJs and ExpressJs.
-The file contains the fundamental concepts of NodeJs and ExpressJs that includes:
-1. Modules : This project discusses the concept of modules in NodeJs and how to use them effectively. It covers importing/exporting modules and the CommonJS module system.
+This project is created to learn about NodeJs and ExpressJs. It contains multiple files that have the basics of NodeJs and ExpressJs.
+The file contains the fundamental concepts of NodeJs and ExpressJs including:
+1. Modules: This project discusses the concept of modules in NodeJs and how to use them effectively. It covers importing/exporting modules and the CommonJS module system.
+** Modules discussed: (http, url, util, filesystem)**
 
 ## How to run in your local machine
 To run this project on your local machine, follow these steps:
