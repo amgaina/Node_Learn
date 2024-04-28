@@ -1,7 +1,6 @@
 // This is asynchronous Approach to read the file.
 
-const { readFile, writeFile } = require("fs");
-
+const { readFile, writeFile, rename } = require("fs");
 
 readFile("./content/first.txt", "utf-8", (err, result) => {
   if (err) {
@@ -30,3 +29,16 @@ readFile("./content/first.txt", "utf-8", (err, result) => {
     );
   });
 });
+
+// rename("./Content/last.txt", "./Content/first.txt", function (err, data) {
+//   if (err) throw err;
+//   console.log("rename");
+//   console.log(data);
+// });
+
+// unlink is another method to delete the file from our directory. unlink('./Content/)
+
+// unlink("./Content/test.txt", function (err, data) {
+//   if (err) throw err;
+//   console.log(data);
+// });
