@@ -12,5 +12,9 @@
   "license": "ISC",
   "devDependencies": {
     "nodemon": "^3.1.0"
+  },
+  "dependencies": {
+    "formidable": "^3.5.1",
+    "nodemailer": "^6.9.13"
   }
 }
