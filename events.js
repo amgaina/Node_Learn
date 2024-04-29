@@ -1,11 +1,14 @@
 //Events Module in Node
+const EventEmitter = require("events");
 
-const event = require("events");
-const eventemitter = new event.EventEmitter();
+const customEmitter = new EventEmitter();
 
-const listen = () => {
-  console.log("I listened you. Thank you.");
-};
+customEmitter.on("response", (name, age) => {
+  console.log("data received." + name + age);
+});
 
-eventemitter.on("shout", listen);
-eventemitter.emit("shout");
+customEmitter.on("response", () => {
+  console.log("Some other logic.");
+});
+
+customEmitter.emit("response", "John", 34);
